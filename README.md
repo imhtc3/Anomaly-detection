@@ -1,4 +1,6 @@
-# Metric Anomaly Detection
+# Metric Anomaly Detection 
+![CI](https://github.com/imhtc3/Anomaly-detection/actions/workflows/ci.yml/badge.svg)
+
 
 Detects incidents in service metrics (traffic, CPU, latency, errors, memory) with an Isolation Forest, groups flagged minutes into actionable alerts, and serves the model through a FastAPI endpoint.
 
