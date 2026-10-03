@@ -45,8 +45,4 @@ python demo_client.py                     # in a second terminal: scores a norma
 - **Seasonal baseline**: 3 pm traffic is normal at 3 pm but not at 3 am, so each minute is compared to the same time on previous days.
 - **Incident-level metrics**: on-call engineers care whether each incident triggers one clear alert, not per-minute F1, so both are reported.
 
-## Next steps
 
-- Train on real metrics (Prometheus, Azure Monitor) or on the Telemetry Analytics Pipeline's warehouse
-- Per-metric thresholds and severity levels
-- Stream scoring with Kafka instead of request/response
